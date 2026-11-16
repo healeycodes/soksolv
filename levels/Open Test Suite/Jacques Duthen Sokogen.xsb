@@ -1,0 +1,676 @@
+; Jacques Duthen Sokogen 1
+#####
+#@  ##
+#.$* #
+#  # #
+#    #
+######
+
+; Jacques Duthen Sokogen 2
+######
+#@   ##
+# $$  #
+# #. .#
+#     #
+#######
+
+; Jacques Duthen Sokogen 3
+  ####
+###  #
+#@ .$##
+#   $ #
+# #.  #
+#     #
+#######
+
+; Jacques Duthen Sokogen 4
+ #####
+##@  ##
+#  #  #
+# $*$ #
+#  .  #
+## . ##
+ #####
+
+; Jacques Duthen Sokogen 5
+######
+#    ###
+#   .. #
+# $$$@ #
+#  # . #
+########
+
+; Jacques Duthen Sokogen 6
+ #####
+##   ###
+# .# $@#
+#  # # #
+# *  $.#
+#    ###
+######
+
+; Jacques Duthen Sokogen 7
+######
+#@*  ##
+# $#  #
+# $ . #
+#.   ##
+######
+
+; Jacques Duthen Sokogen 8
+ ######
+##    ##
+# ..   #
+# # $$$#
+#   #@.#
+########
+
+; Jacques Duthen Sokogen 9
+######
+#.@* ##
+#$  $ #
+#   # #
+#  .  #
+#######
+
+; Jacques Duthen Sokogen 10
+######
+#@ ..#
+# #$ ##
+# #   #
+#  $# #
+#  *  #
+#######
+
+; Jacques Duthen Sokogen 11
+#####
+#   #
+# # ###
+#*.$  #
+#  #$ #
+#@   .#
+#######
+
+; Jacques Duthen Sokogen 12
+  #####
+###  @#
+#. *# #
+#   $ #
+# $. ##
+######
+
+; Jacques Duthen Sokogen 13
+######
+#@   ##
+# .$* ##
+# #$.  #
+#      #
+########
+
+; Jacques Duthen Sokogen 14
+######
+#  . #
+# #. ##
+#  .  #
+# $$$ #
+#  # @#
+#######
+
+; Jacques Duthen Sokogen 15
+####
+#  ####
+#   *.#
+#  $# #
+#  .$@#
+#######
+
+; Jacques Duthen Sokogen 16
+#######
+#  .  ##
+# $$#. #
+# #@$  #
+#  .#  #
+########
+
+; Jacques Duthen Sokogen 17
+#####
+#@  ###
+# $$$ #
+## ...#
+#   # #
+#     #
+#######
+
+; Jacques Duthen Sokogen 18
+####
+#  ##
+#   ##
+#$ $@##
+#. #$ #
+#  . .#
+#######
+
+; Jacques Duthen Sokogen 19
+######
+#@  .#
+#$$$ #
+#. # #
+#  . #
+######
+
+; Jacques Duthen Sokogen 20
+#######
+#@    ##
+# # #$ #
+#. $*  #
+#   # .#
+########
+
+; Jacques Duthen Sokogen 21
+######
+#   @##
+#  #* #
+#   $ #
+#  $..#
+#######
+
+; Jacques Duthen Sokogen 22
+   #####
+#### . #
+# @$   #
+#   ** #
+#    ###
+######
+
+; Jacques Duthen Sokogen 23
+ ######
+##  . ##
+#   $$@#
+# #. $ #
+#  .#  #
+########
+
+; Jacques Duthen Sokogen 24
+#######
+#  .  #
+# $ # ##
+#.#$ $ #
+#  .#@ #
+#   #  #
+########
+
+; Jacques Duthen Sokogen 25
+#####
+#.  ###
+# # $ #
+#  *  #
+#  ## #
+# *  @#
+#######
+
+; Jacques Duthen Sokogen 26
+#######
+#     ##
+# #@#  #
+#.$$$. #
+#   #. #
+########
+
+; Jacques Duthen Sokogen 27
+####
+#@.####
+#$$   #
+#.$ # #
+#  .  #
+#######
+
+; Jacques Duthen Sokogen 28
+#####
+#   #
+# # ###
+#. $$ #
+#.  # #
+#  *@ #
+#######
+
+; Jacques Duthen Sokogen 29
+ ######
+##.   ##
+#  $$$+#
+# # #  #
+#.    ##
+#######
+
+; Jacques Duthen Sokogen 30
+ #####
+##.  ##
+#+$$$ #
+# #  .#
+#    ##
+######
+
+; Jacques Duthen Sokogen 31
+#####
+#   ##
+#.   ##
+# #.$ #
+# $$# #
+##@.  #
+ ######
+
+; Jacques Duthen Sokogen 32
+ #####
+ #   #
+## #.#
+#  $.##
+# # $ #
+#  * @#
+#######
+
+; Jacques Duthen Sokogen 33
+#####
+#   ##
+# #$ ##
+#. *  #
+# $#  #
+#+ *  #
+#######
+
+; Jacques Duthen Sokogen 34
+ ####
+ #@ ####
+##$$   #
+#  $ # #
+# # ...#
+#   ####
+#####
+
+; Jacques Duthen Sokogen 35
+######
+#@ * ###
+# #    #
+#.$$.# #
+#      #
+########
+
+; Jacques Duthen Sokogen 36
+#######
+#@ .. ##
+# $ #  #
+# #$$  #
+#   #  #
+#.  #  #
+########
+
+; Jacques Duthen Sokogen 37
+ ######
+ # .$@##
+## *$$ #
+# .    #
+# # #  #
+#  .####
+#####
+
+; Jacques Duthen Sokogen 38
+#####
+#. .####
+#$$    #
+#@$#   #
+# .    #
+########
+
+; Jacques Duthen Sokogen 39
+######
+#    #
+# ## ##
+# . * ###
+## $ *  #
+ #  #  @#
+ ########
+
+; Jacques Duthen Sokogen 40
+######
+#    ###
+# @#$  #
+# *.$  #
+# . #  #
+########
+
+; Jacques Duthen Sokogen 41
+######
+#    #
+# ## ##
+# .$@.###
+## $$   #
+ #  #.  #
+ ########
+
+; Jacques Duthen Sokogen 42
+######
+# .$ ##
+#   $+#
+#$  # #
+#. .$ #
+#######
+
+; Jacques Duthen Sokogen 43
+   ####
+ ### @#
+##.$$.#
+#  $ ##
+# # .#
+# $ .#
+######
+
+; Jacques Duthen Sokogen 44
+  ####
+###+ ##
+#  $$ #
+# #$  #
+#.   .#
+#######
+
+; Jacques Duthen Sokogen 45
+######
+#@ .####
+# * $  #
+# $# # #
+#   .  #
+########
+
+; Jacques Duthen Sokogen 46
+ ####
+ #  ###
+## .$ #
+# $$  #
+# #. .#
+#@  ###
+#####
+
+; Jacques Duthen Sokogen 47
+######
+#    #
+# ##*##
+#   * ###
+##   $  #
+ # @#.  #
+ ########
+
+; Jacques Duthen Sokogen 48
+######
+#@*  ##
+#$$$  #
+#.  # #
+#   ..#
+#######
+
+; Jacques Duthen Sokogen 49
+ #####
+##@  ###
+#.$*$  #
+# #   .#
+#    ###
+######
+
+; Jacques Duthen Sokogen 50
+  #####
+ ##   #
+## .  ###
+#@$$$$  #
+# #. ## #
+#  . .  #
+#########
+
+; Jacques Duthen Sokogen 51
+ ####
+ #  ####
+## * . #
+# $  # #
+# # $  #
+#@ .####
+#####
+
+; Jacques Duthen Sokogen 52
+ #####
+##@  ##
+# $*$ #
+#.  # #
+# #.  #
+#    ##
+######
+
+; Jacques Duthen Sokogen 53
+ ####
+##  ##
+#+   ###
+# #$   #
+#  $$  #
+##. .###
+ #####
+
+; Jacques Duthen Sokogen 54
+######
+#    #
+# ## ##
+#  *. ###
+##$  $  #
+ #. #  @#
+ ########
+
+; Jacques Duthen Sokogen 55
+ #####
+ #  .#
+## #$#
+# $  ##
+# # $.#
+# .  @#
+#######
+
+; Jacques Duthen Sokogen 56
+######
+# .$@##
+# .$$.#
+#$  # #
+#.    #
+#######
+
+; Jacques Duthen Sokogen 57
+ ####
+ #. ####
+##.$  .#
+#.$  # #
+# #$$  #
+#@  ####
+#####
+
+; Jacques Duthen Sokogen 58
+  ####
+  #  ##
+  #   ##
+  #$   #
+### .# #
+# *$. @#
+#    ###
+######
+
+; Jacques Duthen Sokogen 59
+ #####
+ #.  #
+##.# ##
+#.$ $ #
+#$  # #
+#   *@#
+#######
+
+; Jacques Duthen Sokogen 60
+ ####
+ #  ###
+##$.  #
+#     #
+# #** #
+#@  ###
+#####
+
+; Jacques Duthen Sokogen 61
+######
+#  .####
+# . $  #
+#  #$# #
+#   .$@#
+########
+
+; Jacques Duthen Sokogen 62
+######
+# $.@##
+#  $  #
+#  $# #
+# .*. #
+#######
+
+; Jacques Duthen Sokogen 63
+######
+#... ###
+# @#$  #
+# $ $  #
+#   #  #
+########
+
+; Jacques Duthen Sokogen 64
+#######
+#   . ##
+# ##   ##
+#  $*#  #
+##$     #
+ # .#  @#
+ ########
+
+; Jacques Duthen Sokogen 65
+  ####
+  #  ##
+  #   ##
+  #.$  #
+###. # #
+#  $$  #
+#  +####
+#####
+
+; Jacques Duthen Sokogen 66
+######
+#   .#
+# ##$##
+# $   ###
+# #$  *.#
+#. @#   #
+#########
+
+; Jacques Duthen Sokogen 67
+######
+#.$..###
+# ## $ ##
+#   $ $.#
+#  #  $ #
+#   .# @#
+#########
+
+; Jacques Duthen Sokogen 68
+  ####
+###  ###
+#  . . #
+# #.$# #
+#@$  $ #
+###  ###
+  ####
+
+; Jacques Duthen Sokogen 69
+  #####
+  #@  #
+### # ###
+#  .$*$ #
+# #   # #
+#  .#   #
+#########
+
+; Jacques Duthen Sokogen 70
+ ####
+ #  ###
+##    #
+# $. .#
+# #$$ #
+#@ .###
+#####
+
+; Jacques Duthen Sokogen 71
+ #####
+##@ .###
+# $$$  #
+# #.   #
+# .  ###
+######
+
+; Jacques Duthen Sokogen 72
+  #####
+  #   #
+  #   ##
+  # $  #
+###$.# #
+#  $*  #
+#.. @###
+######
+
+; Jacques Duthen Sokogen 73
+ #####
+ #   ##
+##. . ###
+#@$ * $ #
+# #  ## #
+#  *    #
+#########
+
+; Jacques Duthen Sokogen 74
+ #####
+ #@  #
+##$#$###
+# . .  #
+# #  $ #
+#  . ###
+######
+
+; Jacques Duthen Sokogen 75
+  #####
+  #  +#
+  # $$##
+  #$   #
+### .# #
+# . *  #
+#  $.###
+######
+
+; Jacques Duthen Sokogen 76
+ #####
+ #   ####
+## #. . #
+#.*$  #.#
+#.$  $  #
+#$$##   #
+#@ ######
+####
+
+; Jacques Duthen Sokogen 77
+  ######
+  #.   #
+  #    #
+###$ .##
+#   #.#
+# $$$.#
+#@ .$ #
+#######
+
+; Jacques Duthen Sokogen 78
+########
+#.     #
+# ## # #
+# *@*  #
+##$$.###
+ #    #
+ #.$  #
+ ######
