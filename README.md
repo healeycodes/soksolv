@@ -17,7 +17,7 @@ Both solvers on the same hardware: 600 s per level, 8 dedicated cores, 15 GB mem
 | | soksolv | Festival 3.1 | difference |
 |---|---|---|---|
 | Large Test Suite (3,272) | **3,218** | 3,208 | +10 |
-| Open Test Suite (10,045) | **9,622** | 9,602 | +20 |
+| Open Test Suite (10,043) | **9,622** | 9,602 | +20 |
 
 See [benchmark/README.md](benchmark/README.md) for the method, per-level results and hardware.
 
@@ -67,6 +67,6 @@ It prints `OK` or `FAIL: reason`.
 
 ## Levels and benchmark
 
-`levels/` holds the Large Test Suite (3,272 levels) and the Open Test Suite (10,045 levels).
+`levels/` holds the Large Test Suite (3,272 levels) and the Open Test Suite (10,043 levels).
 `benchmark/` has the published results, the hardware they were measured on and a script to
 reproduce them.

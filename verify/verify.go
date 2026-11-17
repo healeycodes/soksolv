@@ -19,15 +19,43 @@ func SplitLevels(data []byte) [][]string {
 		line = strings.TrimRight(line, "\r")
 		if isRow(line) {
 			cur = append(cur, line)
+		} else if cur != nil && isFloorRow(line) {
+			// A row of only floor ('-' or '_') inside a level, e.g. a spacer
+			// between parts of OTS "Master Head 29": it does not end the level.
+			cur = append(cur, line)
 		} else if cur != nil {
-			levels = append(levels, cur)
+			levels = append(levels, trimFloorRows(cur))
 			cur = nil
 		}
 	}
 	if cur != nil {
-		levels = append(levels, cur)
+		levels = append(levels, trimFloorRows(cur))
 	}
 	return levels
+}
+
+// isFloorRow reports whether s is a row of floor symbols only ('-', '_',
+// spaces) with at least one '-' or '_'. Blank lines still end a level.
+func isFloorRow(s string) bool {
+	floor := false
+	for i := 0; i < len(s); i++ {
+		switch s[i] {
+		case '-', '_':
+			floor = true
+		case ' ':
+		default:
+			return false
+		}
+	}
+	return floor
+}
+
+// trimFloorRows drops floor-only rows at the end of a level.
+func trimFloorRows(rows []string) []string {
+	for len(rows) > 0 && isFloorRow(rows[len(rows)-1]) {
+		rows = rows[:len(rows)-1]
+	}
+	return rows
 }
 
 func isRow(s string) bool {

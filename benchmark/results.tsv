@@ -7404,25 +7404,23 @@ OTS	Master Head.xsb	25		yes	0.108	1028	312	61	yes	2	5568
 OTS	Master Head.xsb	26		yes	0.034	1036	334	32	yes	2	5548
 OTS	Master Head.xsb	27		yes	0.149	1345	346	65	yes	2	5554
 OTS	Master Head.xsb	28		yes	0.076	1066	363	46	yes	2	5558
-OTS	Master Head.xsb	29		no				3	no		5533
-OTS	Master Head.xsb	30		no				3	no		5533
-OTS	Master Head.xsb	31		yes	0.002	11	6	7	yes	1	5543
-OTS	Master Head.xsb	32		yes	0.056	1262	476	42	yes	1	5552
-OTS	Master Head.xsb	33		yes	0.244	1706	398	147	yes	1	5556
-OTS	Master Head.xsb	34		yes	0.043	690	146	49	yes	1	5552
-OTS	Master Head.xsb	35		yes	0.053	756	180	42	yes	1	5547
-OTS	Master Head.xsb	36		yes	0.104	1637	516	43	yes	2	5564
-OTS	Master Head.xsb	37		yes	1.748	1710	408	488	yes	11	6009
-OTS	Master Head.xsb	38		yes	0.046	906	283	40	yes	1	5559
-OTS	Master Head.xsb	39		yes	0.026	361	81	24	yes	1	5554
-OTS	Master Head.xsb	40		yes	0.026	381	54	38	yes	1	5551
-OTS	Master Head.xsb	41		yes	0.284	1978	516	84	yes	2	5585
-OTS	Master Head.xsb	42		yes	0.056	1059	299	41	yes	2	5551
-OTS	Master Head.xsb	43		yes	0.215	1989	485	74	yes	20	6260
-OTS	Master Head.xsb	44		yes	0.027	269	64	25	yes	1	5548
-OTS	Master Head.xsb	45		yes	0.322	2603	807	114	yes	2	5568
-OTS	Master Head.xsb	46		yes	0.081	872	268	64	yes	2	5550
-OTS	Master Head.xsb	47	OTS Master Head.xsb #46	yes	0.081	872	268	64	yes	2	5550
+OTS	Master Head.xsb	29		yes	0.002	11	6	7	yes	1	5543
+OTS	Master Head.xsb	30		yes	0.056	1262	476	42	yes	1	5552
+OTS	Master Head.xsb	31		yes	0.244	1706	398	147	yes	1	5556
+OTS	Master Head.xsb	32		yes	0.043	690	146	49	yes	1	5552
+OTS	Master Head.xsb	33		yes	0.053	756	180	42	yes	1	5547
+OTS	Master Head.xsb	34		yes	0.104	1637	516	43	yes	2	5564
+OTS	Master Head.xsb	35		yes	1.748	1710	408	488	yes	11	6009
+OTS	Master Head.xsb	36		yes	0.046	906	283	40	yes	1	5559
+OTS	Master Head.xsb	37		yes	0.026	361	81	24	yes	1	5554
+OTS	Master Head.xsb	38		yes	0.026	381	54	38	yes	1	5551
+OTS	Master Head.xsb	39		yes	0.284	1978	516	84	yes	2	5585
+OTS	Master Head.xsb	40		yes	0.056	1059	299	41	yes	2	5551
+OTS	Master Head.xsb	41		yes	0.215	1989	485	74	yes	20	6260
+OTS	Master Head.xsb	42		yes	0.027	269	64	25	yes	1	5548
+OTS	Master Head.xsb	43		yes	0.322	2603	807	114	yes	2	5568
+OTS	Master Head.xsb	44		yes	0.081	872	268	64	yes	2	5550
+OTS	Master Head.xsb	45	OTS Master Head.xsb #44	yes	0.081	872	268	64	yes	2	5550
 OTS	Microban II.xsb	1	LTS Microban II_135.xsb #1	yes	0.003	52	16	10	yes	2	5543
 OTS	Microban II.xsb	2	LTS Microban II_135.xsb #2	yes	0.002	31	7	8	yes	1	5544
 OTS	Microban II.xsb	3	LTS Microban II_135.xsb #3	yes	0.003	48	11	10	yes	1	5542

@@ -1,7 +1,7 @@
 # Benchmark
 
 soksolv against Festival 3.1 on the Large Test Suite (LTS, 3,272 levels) and the Open Test Suite
-(OTS, 10,045 levels), run on the same hardware in November 2026.
+(OTS, 10,043 levels), run on the same hardware in November 2026.
 
 | | soksolv | Festival 3.1 | difference |
 |---|---|---|---|
@@ -11,7 +11,7 @@ soksolv against Festival 3.1 on the Large Test Suite (LTS, 3,272 levels) and the
 | | both solve | only soksolv | only Festival | neither |
 |---|---|---|---|---|
 | LTS | 3,190 | 28 | 18 | 36 |
-| OTS | 9,502 | 120 | 100 | 323 |
+| OTS | 9,502 | 120 | 100 | 321 |
 
 soksolv solved 24 boards (30 levels, counting copies in both suites) that, as far as we know, no
 solver had solved before; Festival solved none of them in this run.
@@ -24,7 +24,7 @@ solver had solved before; Festival solved none of them in this run.
   `festival <file> -level <level> -time 600 -cores 8`.
 - A level counts as solved if the solution replays correctly on the original level (`cmd/verify`)
   and the solver's own reported time is at most 600 s.
-- The two suites share many boards. Each distinct board (9,758) was run once per solver, and the
+- The two suites share many boards. Each distinct board (9,756) was run once per solver, and the
   result counts for every level with that board. `same_board_as` in results.tsv shows the copies.
 - Each solver ran once per board, so a few levels near the time limit can go either way between
   runs. An earlier soksolv run of the same set solved LTS 3,217 / OTS 9,594.
@@ -40,7 +40,7 @@ solver had solved before; Festival solved none of them in this run.
 
 ## Files
 
-- `results.tsv`: one row per level (13,317): solved, time, moves, pushes and peak memory for
+- `results.tsv`: one row per level (13,315): solved, time, moves, pushes and peak memory for
   soksolv; solved, time (whole seconds, as Festival reports it) and peak memory for Festival.
 - `hardware.txt`: CPU, memory, OS and build details.
 - `run.sh`: runs soksolv on a suite with these settings and checks every solution. It runs one
