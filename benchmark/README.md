@@ -6,12 +6,12 @@ soksolv against Festival 3.1 on the Large Test Suite (LTS, 3,272 levels) and the
 | | soksolv | Festival 3.1 | difference |
 |---|---|---|---|
 | LTS solved | **3,218** | 3,208 | +10 |
-| OTS solved | **9,622** | 9,602 | +20 |
+| OTS solved | **9,620** | 9,602 | +18 |
 
 | | both solve | only soksolv | only Festival | neither |
 |---|---|---|---|---|
 | LTS | 3,190 | 28 | 18 | 36 |
-| OTS | 9,502 | 120 | 100 | 321 |
+| OTS | 9,502 | 118 | 100 | 323 |
 
 soksolv solved 24 boards (30 levels, counting copies in both suites) that, as far as we know, no
 solver had solved before; Festival solved none of them in this run.
@@ -22,8 +22,9 @@ solver had solved before; Festival solved none of them in this run.
   [hardware.txt](hardware.txt) (AMD EPYC 9555P, Ubuntu 24.04).
 - Commands: `soksolv -t 600 <file> <level>` (defaults: `-mem 15360 -procs 8`) and
   `festival <file> -level <level> -time 600 -cores 8`.
-- A level counts as solved if the solution replays correctly on the original level (`cmd/verify`)
-  and the solver's own reported time is at most 600 s.
+- A level counts as solved if the solution replays correctly on the original level (`cmd/verify`),
+  contains at least one push, and the solver's own reported time is at most 600 s. The 18 levels
+  that start solved were re-run with the same settings after the solver learned that rule.
 - The two suites share many boards. Each distinct board (9,756) was run once per solver, and the
   result counts for every level with that board. `same_board_as` in results.tsv shows the copies.
 - Each solver ran once per board, so a few levels near the time limit can go either way between

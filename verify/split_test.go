@@ -11,3 +11,14 @@ func TestSplitLevelsFloorRow(t *testing.T) {
 		t.Fatalf("got %d levels: %q", len(lv), lv)
 	}
 }
+
+// A level that starts solved needs a solution with at least one push.
+func TestCheckSolutionNeedsPush(t *testing.T) {
+	rows := []string{"######", "#@*  #", "#    #", "######"}
+	if CheckSolution(rows, "") == nil || CheckSolution(rows, "rl") == nil {
+		t.Fatal("accepted a solution with no push")
+	}
+	if err := CheckSolution(rows, "RdrruL"); err != nil {
+		t.Fatal(err)
+	}
+}

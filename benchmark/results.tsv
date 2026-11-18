@@ -460,7 +460,7 @@ LTS	GrigrSpecial_40.xsb	36		yes	0.016	458	96	20	yes	1	5548
 LTS	GrigrSpecial_40.xsb	37		yes	0.034	549	123	31	yes	1	5554
 LTS	GrigrSpecial_40.xsb	38		yes	0.048	484	125	46	yes	1	5550
 LTS	GrigrSpecial_40.xsb	39		yes	0.069	328	89	56	yes	2	5554
-LTS	GrigrSpecial_40.xsb	40		yes	0.001	0	0	7	yes	1	5544
+LTS	GrigrSpecial_40.xsb	40		yes	0.741	274	60	24	yes	1	5544
 LTS	Holland_81.xsb	1		yes	0.043	402	106	37	yes	1	5548
 LTS	Holland_81.xsb	2		yes	0.010	108	31	17	yes	1	5548
 LTS	Holland_81.xsb	3		yes	0.013	415	69	17	yes	1	5548
@@ -3437,10 +3437,10 @@ OTS	ABHT -02-.xsb	31		yes	0.055	774	193	37	yes	1	5548
 OTS	ABHT -02-.xsb	32		yes	5.938	1867	332	1247	yes	207	10873
 OTS	ABHT -02-.xsb	33		yes	255.487	3901	641	11118	yes	24	6230
 OTS	ABHT -02-.xsb	34		yes	5.780	2053	451	1379	yes	41	7159
-OTS	ABHT -02-.xsb	35		yes	0.002	0	0	9	no		12241
-OTS	ABHT -02-.xsb	36		yes	0.003	0	0	11	yes	267	8563
+OTS	ABHT -02-.xsb	35		yes	10.837	2686	476	529	no		12241
+OTS	ABHT -02-.xsb	36		yes	412.753	13608	938	8154	yes	267	8563
 OTS	ABHT -02-.xsb	37		yes	85.421	7749	604	6680	yes	100	7364
-OTS	ABHT -02-.xsb	38		yes	0.002	0	0	8	no		11361
+OTS	ABHT -02-.xsb	38		no				3658	no		11361
 OTS	ABHT -02-.xsb	39		yes	1.517	2094	286	399	yes	10	5845
 OTS	ABHT -02-.xsb	40		yes	0.165	180	41	91	yes	2	5581
 OTS	ABHT -02-.xsb	41		yes	0.171	913	177	94	yes	2	5560
@@ -3475,13 +3475,13 @@ OTS	ABHT -02-.xsb	69		no				11640	no		10648
 OTS	ABHT -02-.xsb	70		yes	0.141	886	217	83	yes	2	5570
 OTS	ABHT -02-.xsb	71		no				12720	no		10965
 OTS	ABHT -02-.xsb	72		no				11520	no		10273
-OTS	ABHT -02-.xsb	73		yes	0.005	0	0	14	no		916
+OTS	ABHT -02-.xsb	73		no				10486	no		916
 OTS	ABHT -02-.xsb	74		no				11497	no		8758
 OTS	ABHT -02-.xsb	75		yes	0.359	1998	299	158	yes	96	8748
 OTS	ABHT -02-.xsb	76		no				12438	no		8978
 OTS	ABHT -02-.xsb	77		yes	0.313	1392	474	127	yes	5	5721
 OTS	ABHT -02-.xsb	78		yes	18.835	1286	318	2821	yes	101	9183
-OTS	ABHT -02-.xsb	79		yes	0.002	0	0	9	yes	182	11683
+OTS	ABHT -02-.xsb	79		yes	293.728	589	98	4212	yes	182	11683
 OTS	ABHT -02-.xsb	80		yes	19.936	6618	1915	3889	no		8402
 OTS	ABHT -02-.xsb	81		yes	3.041	1711	123	548	yes	215	9235
 OTS	ABHT -02-.xsb	82		no				11746	no		8622
@@ -4186,7 +4186,7 @@ OTS	GRIGoRusha Comet.xsb	12		yes	0.061	414	93	52	yes	1	5553
 OTS	GRIGoRusha Comet.xsb	13		yes	0.025	346	67	25	yes	1	5553
 OTS	GRIGoRusha Comet.xsb	14		yes	0.090	395	88	77	yes	2	5559
 OTS	GRIGoRusha Comet.xsb	15		yes	0.059	375	88	49	yes	1	5550
-OTS	GRIGoRusha Comet.xsb	16		yes	0.002	0	0	7	yes	1	5545
+OTS	GRIGoRusha Comet.xsb	16		yes	0.013	414	86	18	yes	1	5545
 OTS	GRIGoRusha Comet.xsb	17		yes	0.024	379	85	23	yes	1	5552
 OTS	GRIGoRusha Comet.xsb	18		yes	0.020	414	85	23	yes	2	5548
 OTS	GRIGoRusha Comet.xsb	19		yes	0.065	349	69	49	yes	1	5555
@@ -4297,7 +4297,7 @@ OTS	GRIGoRusha Remodel Club.xsb	93		yes	0.147	740	134	65	yes	1	5555
 OTS	GRIGoRusha Remodel Club.xsb	94		yes	0.141	450	109	75	yes	1	5553
 OTS	GRIGoRusha Remodel Club.xsb	95		yes	0.161	1038	229	76	yes	2	5568
 OTS	GRIGoRusha Remodel Club.xsb	96		yes	0.206	2159	262	107	yes	2	5576
-OTS	GRIGoRusha Remodel Club.xsb	97		yes	0.001	0	0	7	yes	1	5550
+OTS	GRIGoRusha Remodel Club.xsb	97		yes	0.045	444	102	33	yes	1	5550
 OTS	GRIGoRusha Remodel Club.xsb	98		no				11762	yes	95	8397
 OTS	GRIGoRusha Remodel Club.xsb	99		yes	153.782	4215	719	9273	no		12350
 OTS	GRIGoRusha Remodel Club.xsb	100		yes	0.047	1034	149	29	yes	1	5559
@@ -4558,7 +4558,7 @@ OTS	GrigrSpecial.xsb	36	LTS GrigrSpecial_40.xsb #36	yes	0.016	458	96	20	yes	1	55
 OTS	GrigrSpecial.xsb	37	LTS GrigrSpecial_40.xsb #37	yes	0.034	549	123	31	yes	1	5554
 OTS	GrigrSpecial.xsb	38	LTS GrigrSpecial_40.xsb #38	yes	0.048	484	125	46	yes	1	5550
 OTS	GrigrSpecial.xsb	39	LTS GrigrSpecial_40.xsb #39	yes	0.069	328	89	56	yes	2	5554
-OTS	GrigrSpecial.xsb	40	LTS GrigrSpecial_40.xsb #40	yes	0.001	0	0	7	yes	1	5544
+OTS	GrigrSpecial.xsb	40	LTS GrigrSpecial_40.xsb #40	yes	0.741	274	60	24	yes	1	5544
 OTS	Haikemono.xsb	1		yes	42.837	5559	1349	4016	yes	111	7057
 OTS	Haikemono.xsb	2		yes	477.842	11901	1506	11476	yes	223	7415
 OTS	Haikemono.xsb	3		yes	4.564	4674	834	496	yes	197	7020
@@ -7718,8 +7718,8 @@ OTS	Numbers.xsb	4		yes	0.362	1946	462	117	yes	8	5799
 OTS	Numbers.xsb	5		yes	0.140	398	87	88	yes	2	5595
 OTS	Numbers.xsb	6		yes	0.204	523	104	93	yes	2	5563
 OTS	Numbers.xsb	7		yes	0.056	830	172	35	yes	2	5548
-OTS	Numbers.xsb	8		yes	0.001	0	0	7	yes	2	5586
-OTS	Numbers.xsb	9		yes	0.001	0	0	7	yes	2	5558
+OTS	Numbers.xsb	8		yes	1.298	845	182	267	yes	2	5586
+OTS	Numbers.xsb	9		yes	0.161	791	90	88	yes	2	5558
 OTS	Numbers.xsb	10		yes	0.044	989	221	38	yes	1	5550
 OTS	Numbers.xsb	11		yes	0.108	597	171	68	yes	1	5552
 OTS	Numbers.xsb	12		no				11411	no		8581
@@ -10270,20 +10270,20 @@ OTS	Sokobet.xsb	5		yes	0.038	992	246	38	yes	1	5552
 OTS	Sokobet.xsb	6		yes	0.056	1136	188	52	yes	1	5570
 OTS	Sokobet.xsb	7		yes	2.185	1562	165	535	yes	18	6152
 OTS	Sokobet.xsb	8		yes	0.224	439	126	79	yes	1	5553
-OTS	Sokobet.xsb	9		yes	0.002	0	0	7	yes	2	5542
+OTS	Sokobet.xsb	9		yes	0.011	126	22	15	yes	2	5542
 OTS	Sokobet.xsb	10		yes	0.159	586	71	96	yes	1	5567
 OTS	Sokobet.xsb	11		yes	0.079	117	30	67	yes	1	5552
-OTS	Sokobet.xsb	12		yes	0.001	0	0	7	yes	1	5554
+OTS	Sokobet.xsb	12		yes	0.014	181	48	21	yes	1	5554
 OTS	Sokobet.xsb	13		yes	0.029	235	48	28	yes	2	5552
-OTS	Sokobet.xsb	14		yes	0.002	0	0	7	yes	4	5645
+OTS	Sokobet.xsb	14		yes	3.366	2755	330	381	yes	4	5645
 OTS	Sokobet.xsb	15		yes	0.070	2467	726	40	yes	2	5555
 OTS	Sokobet.xsb	16		yes	0.032	577	106	31	yes	1	5561
-OTS	Sokobet.xsb	17		yes	0.002	0	0	7	yes	1	5568
+OTS	Sokobet.xsb	17		yes	0.218	674	122	108	yes	1	5568
 OTS	Sokobet.xsb	18		yes	8.106	3098	554	2352	yes	176	11220
-OTS	Sokobet.xsb	19		yes	0.001	0	0	7	yes	1	5549
+OTS	Sokobet.xsb	19		yes	0.060	288	68	39	yes	1	5549
 OTS	Sokobet.xsb	20		yes	0.025	419	96	24	yes	2	5550
-OTS	Sokobet.xsb	21		yes	0.001	0	0	7	yes	1	5544
-OTS	Sokobet.xsb	22		yes	0.002	0	0	7	yes	2	5554
+OTS	Sokobet.xsb	21		yes	0.081	306	56	66	yes	1	5544
+OTS	Sokobet.xsb	22		yes	0.068	507	70	41	yes	2	5554
 OTS	Sokobet.xsb	23		yes	0.216	2762	689	81	yes	3	5584
 OTS	Sokobet.xsb	24		yes	0.176	1479	260	68	yes	2	5562
 OTS	Sokobet.xsb	25		no				11587	no		10891

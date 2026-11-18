@@ -17,7 +17,7 @@ Both solvers on the same hardware: 600 s per level, 8 dedicated cores, 15 GB mem
 | | soksolv | Festival 3.1 | difference |
 |---|---|---|---|
 | Large Test Suite (3,272) | **3,218** | 3,208 | +10 |
-| Open Test Suite (10,043) | **9,622** | 9,602 | +20 |
+| Open Test Suite (10,043) | **9,620** | 9,602 | +18 |
 
 See [benchmark/README.md](benchmark/README.md) for the method, per-level results and hardware.
 

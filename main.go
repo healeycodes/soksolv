@@ -435,7 +435,15 @@ func main() {
 		select {} // exp-337 regression seam: the portfolio never returns
 	}
 	initSolOracle(lv)
-	res, strategy, summaries := portfolio(lv, levels[idx-1], deadline, memLimit, *only)
+	var res Result
+	var strategy string
+	var summaries map[string]*trace.Summary
+	if startsSolved(lv) {
+		// A circular level: a solution needs at least one push (circular.go).
+		res, strategy = solveCircular(levels[idx-1], start, deadline)
+	} else {
+		res, strategy, summaries = portfolio(lv, levels[idx-1], deadline, memLimit, *only)
+	}
 	elapsed := time.Since(start)
 	stopTrace()
 	pprof.StopCPUProfile() // no-op unless profiling; os.Exit below skips defers
@@ -453,7 +461,7 @@ func main() {
 		Reason:       res.Reason,
 		TimeMs:       math.Round(float64(elapsed.Microseconds())/100) / 10,
 		Nodes:        res.Nodes,
-		PeakMemoryMB: peakMemoryMB(),
+		PeakMemoryMB: max(peakMemoryMB(), circularPeakMB),
 		Solution:     res.Solution,
 	}
 	out.Stats.Stats = res.Stats
@@ -479,7 +487,7 @@ func main() {
 		out.Stats.NodesPerSec = math.Round(float64(res.Nodes) / secs)
 	}
 	if res.Solved {
-		if verify.Check(levels[idx-1], res.Solution) != nil {
+		if verify.CheckSolution(levels[idx-1], res.Solution) != nil {
 			out.Solved = false
 			out.Reason = "solution failed verification"
 		}

@@ -159,3 +159,13 @@ func Check(rows []string, lurd string) error {
 	}
 	return nil
 }
+
+// CheckSolution is Check plus the community rule for a submitted solution: it
+// must contain at least one push. A level that starts solved (a "circular"
+// level) has to be left and solved again.
+func CheckSolution(rows []string, lurd string) error {
+	if !strings.ContainsAny(lurd, "LURD") {
+		return fmt.Errorf("solution has no push")
+	}
+	return Check(rows, lurd)
+}

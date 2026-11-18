@@ -30,7 +30,7 @@ func main() {
 		return
 	}
 	sol, _ := io.ReadAll(os.Stdin)
-	if e := verify.Check(lvs[idx-1], strings.TrimSpace(string(sol))); e != nil {
+	if e := verify.CheckSolution(lvs[idx-1], strings.TrimSpace(string(sol))); e != nil {
 		fmt.Println("FAIL:", e)
 		return
 	}
