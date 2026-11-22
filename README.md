@@ -4,7 +4,7 @@
 
 A state of the art Sokoban solver written in Go, which runs a portfolio of search lanes in parallel.
 
-As of writing (16/11/26), I believe it is the world's strongest Sokoban solver.
+On 20/11/26, it was verified as the best-performing Sokoban solver by the Sokoban Wiki project. See the results published on [the wiki](http://sokobano.de/wiki/index.php?title=Solver_Statistics#Open_Test_Suite) and the solver [statistics pages](https://sokoban-solver-statistics.sourceforge.io/statistics/OpenTestSuite/).
 
 For further detail, please read my 5k+ word blog post linked at the top!
 
